@@ -6,11 +6,15 @@ This will be an experimental implementation of the Web of Things Framework writt
 
 A hundred billion IoT devices are expected to be deployed over the next ten years. There are many IoT platforms, and an increasing number of IoT technologies. However, the IoT products are currently beset by silos and a lack of interoperability, which blocks the benefits of the network effect from taking hold.  At W3C, we are exploring the potential for bridging IoT platforms and devices through the World Wide Web via a new class of Web servers that are connected through a common framework, and available in a variety of scales from microcontrollers, to smart phones and home/office hubs, and cloud-based server farms.
 
-100万ものIoTデバイスは期待されている。
+10億ものIoTデバイスが今後の10年を通して世の中に出されることが期待されています。たくさんのIoTプラットフォーム存在し、IoTテクノロジーの数もどんどん増えていっています。しかし、IoTプロダクトは現在サイロな（それぞれが孤立した）状態であり、相互運用性（互換性）が欠如していことに問題を抱えています。W3Cでは　共通のフレームワークを通じて接続され、そしてマイクロコントローラーからスマートフォンやスマートホーム／オフィスのハブまで様々なスケールで利用可能であり、かつクラウドをベースとしたサーバ群であるWebサーバの新しいクラスを介したWorld Wide Web（www）を通してIoTプラットフォームとデバイスがどうしがブリッジできるような可能性を模索しています。
 
 This framework involves virtual objects ("things") as proxies for physical and abstract entities. These things are modelled in terms of metadata, events, properties and actions, with bindings to scripting APIs and a variety of protocols, since no one protocol will fulfil all needs. This server will start with bindings to MQTT and CoAP.
 
-## Technical Details
+このフレームワークは物理的かつ抽象的な存在のもののためのプロキシーとして（”things”）という仮想オブジェクトを含んでいます。
+どんなプロトコルも一つですべてのニーズを満たすことはないので、このthingsはスクリプティングAPIや様々なプロトコルとバインディングしてメタデータ、イベント、プロパティそしてアクションの観点からモデル化されています。
+このサーバはMQTTやCoAPにバインディングして始まります。
+
+## 技術詳細
 
 The Arduino boards like the Uno are very limited when it comes to RAM and Flash memory. There are a range of possibilities for IP connectivity. The Arduino Ethernet Shield is quite resource intensive. The ENC28J60 board provides an alternative for Wired Ethernet. For wireless, the ESP8266 can be used for a low cost WiFi connection. If you don't need IP connectivity, the NRF24L01+ can be used for point to point or mesh networks. Other possibilities include Bluetooth and ZigBee.
 
