@@ -18,14 +18,17 @@ This framework involves virtual objects ("things") as proxies for physical and a
 
 The Arduino boards like the Uno are very limited when it comes to RAM and Flash memory. There are a range of possibilities for IP connectivity. The Arduino Ethernet Shield is quite resource intensive. The ENC28J60 board provides an alternative for Wired Ethernet. For wireless, the ESP8266 can be used for a low cost WiFi connection. If you don't need IP connectivity, the NRF24L01+ can be used for point to point or mesh networks. Other possibilities include Bluetooth and ZigBee.
 
+UnoのようなArduinoボードはRAMやFlashメモリなどに対しては非常に限られたものです。IPに繋がる可能な範囲があります。
+Arduino Ethernetシールドは非常に資源が集約されています。ワイヤレスにかんしては、ESP8266を低消費のWiFi接続で使うことができます。もしあなたがIP接続が必要ないならRF24L01+を端末間もしくはメッシュネットワークで使うことができます。ほかにもカノセイとしてBluetoothとかZigbeeが含まれますね。
+
 A very constrained web of things server can be used with a single sensor or actuator. Assuming IP connectivity, CoAP and MQTT are good choices for protocols.  This project will allow you to write drivers for simple sensors and actuators, without needing to deal with the details of the protocols. Developers will be able to script the sensors and actuators on a more powerful server where the Web of Things Framework provide the glue between the proxy object and the object it acts on behalf of.
 
 
-## Prerequisites
+## 前提条件
 
  *to be deterimined when we have some code that can be built and run*
   
-## Installation
+## インストール方法
 
 The starting point is to install Git, see:
 
