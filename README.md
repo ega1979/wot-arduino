@@ -23,6 +23,8 @@ Arduino Ethernetシールドは非常に資源が集約されています。ワ�
 
 A very constrained web of things server can be used with a single sensor or actuator. Assuming IP connectivity, CoAP and MQTT are good choices for protocols.  This project will allow you to write drivers for simple sensors and actuators, without needing to deal with the details of the protocols. Developers will be able to script the sensors and actuators on a more powerful server where the Web of Things Framework provide the glue between the proxy object and the object it acts on behalf of.
 
+web of thingsサーバは非常に制約がありますが、単一のセンサとアクチュエータと一緒に利用することができます。IP接続をすると仮定すれば、CoAPとMQTTは通信プロトコルにとっては良い選択です。このプロジェクトはプロトコルの詳細を扱う必要がなくあなたが単一のセンサとアクチュエータのドライバーを書くことが許されるでしょう。デベロッパーはセンサとアクチュエータをよりパワフルなサーバのところで記述できるようになり、そこではWeb of Thingsフレームワークがプロキシオブジェクトとその代わりに動くオブジェクトとの間をつなぐ役割となる
+でしょう。
 
 ## 前提条件
 
