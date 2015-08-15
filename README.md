@@ -32,7 +32,7 @@ web of thingsサーバは非常に制約がありますが、単一のセンサ�
   cd wot-arduino
 ```
 
-## Contributing
+## 寄稿
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/w3c/web-of-things-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
