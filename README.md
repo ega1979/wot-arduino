@@ -36,11 +36,13 @@ web of thingsサーバは非常に制約がありますが、単一のセンサ�
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/w3c/web-of-things-framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-We welcome contributions. If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our [GitHub repository](https://github.com/w3c/arduino-wot), and likewise if you have suggestions for new features. Even better you can submit a Pull Request with a fix. We also have a Gitter chat channel, see above link.
+我々はコントリビュートをどんどん歓迎しています。もしソースコードの中にバグを見つけたりドキュメントに間違いを見つけたら[GitHubリポジトリ](https://github.com/w3c/arduino-wot)にイシューをサブミットしていただいたり、同様に新しい仕様を提案していただければ我々の手助けになりうります。
+さらに良いのは、修正したものをプルリクエストしていただくことです。我々はまたGitterチャットチャンネルがあるので、上記リンクをみてください。
 
-We encourage you to join the W3C [Web of Things Community Group](https://www.w3.org/community/wot/) where contribution and discussions happen. Anyone can join and there are no fees.
+我々はW3Cの起こったことをコントリビュートもしくは議論する[WoTコミュニティグループ](https://www.w3.org/community/wot/)に参加していただくことを奨励します。誰でも参加できますが、報酬は発生しません。
 
-The amount of time you contribute and the areas in which you contribute is up to you. 
+みなさんがコントリビュートに費やす時間、コントリビュートところはすべてみなさん次第です。
+
 
 ## License
 
